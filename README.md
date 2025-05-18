@@ -1,4 +1,6 @@
 # Netflix-Analytics-Case-Study
+![netflix-news-today_62zp](https://github.com/user-attachments/assets/3fdcdd53-a25b-4cd9-9322-3d3c668ae126)
+
 Uncover how Netflix crafts content for global engagement — powered by Python, PowerBI, and binge-worthy data.
 
 # 📺 Netflix Content Strategy Analysis (2023) 🎬
