@@ -56,35 +56,30 @@ The dataset used is named `netflix_content_2023.csv`, containing the following k
 ## 📊 Visualizations & Insights
 
 ### 1. 📦 Content Type Distribution
-<img src="assets/plot1_content_type.png" width="600"/>
 
 - Insight: Distribution across Films, Series, and Documentaries helps understand Netflix's content format focus.
 
 ---
 
 ### 2. 🏆 Top 10 Most Watched Titles
-<img src="assets/plot2_top10_titles.png" width="800"/>
 
 - Insight: Showcases the biggest content hits of 2023 and which titles drove massive engagement.
 
 ---
 
 ### 3. 🌱 Viewership by Season
-<img src="assets/plot3_seasonal_viewership.png" width="600"/>
 
 - Insight: Winter releases had the highest total viewership, hinting at strategic content drops during cold months.
 
 ---
 
 ### 4. 🌍 Top 10 Languages by Viewership
-<img src="assets/plot4_languages.png" width="600"/>
 
 - Insight: English dominates, but non-English content (Korean, Spanish, Hindi) attracts large audiences.
 
 ---
 
 ### 5. 📅 Content Releases by Day
-<img src="assets/plot5_release_day.png" width="600"/>
 
 - Insight: Most content is released on **Fridays**, aligning with global weekend binge-watching behavior.
 
