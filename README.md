@@ -15,6 +15,7 @@ A complete data-driven breakdown of Netflix's 2023 content catalog — uncoverin
 - [⚙️ Technologies Used](#️-technologies-used)
 - [🧠 Key Findings](#-key-findings)
 - [🛠️ How to Run](#️-how-to-run)
+- [📁 Project Structure](#-project-structure)
 - [🚀 Future Improvements](#-future-improvements)
 - [🙋‍♂️ Author & Contact](#-author--contact)
 
@@ -55,31 +56,31 @@ The dataset used is named `netflix_content_2023.csv`, containing the following k
 ## 📊 Visualizations & Insights
 
 ### 1. 📦 Content Type Distribution
-
+![Content Type Distribution](assets/plot1_content_type.png.png)
 - Insight: Distribution across Films, Series, and Documentaries helps understand Netflix's content format focus.
 
 ---
 
 ### 2. 🏆 Top 10 Most Watched Titles
-
+![Top 10 Titles](assets/plot2_top10_titles.png.png)
 - Insight: Showcases the biggest content hits of 2023 and which titles drove massive engagement.
 
 ---
 
 ### 3. 🌱 Viewership by Season
-
+![Seasonal Viewership](assets/plot3_seasonal_viewership.png.png)
 - Insight: Winter releases had the highest total viewership, hinting at strategic content drops during cold months.
 
 ---
 
 ### 4. 🌍 Top 10 Languages by Viewership
-
+![Top Languages](assets/plot4_languages.png.png)
 - Insight: English dominates, but non-English content (Korean, Spanish, Hindi) attracts large audiences.
 
 ---
 
 ### 5. 📅 Content Releases by Day
-
+![Releases by Day](assets/plot5_release_day.png.png)
 - Insight: Most content is released on **Fridays**, aligning with global weekend binge-watching behavior.
 
 ---
@@ -124,6 +125,23 @@ The dataset used is named `netflix_content_2023.csv`, containing the following k
     ```bash
    python netflix_analysis.py
 
+
+## 📁 Project Structure
+
+```
+📦netflix-content-analysis
+ ┣ 📁assets/
+ ┃ ┣ plot1_content_type.png
+ ┃ ┣ plot2_top10_titles.png
+ ┃ ┣ plot3_seasonal_viewership.png
+ ┃ ┣ plot4_languages.png
+ ┃ ┗ plot5_release_day.png
+ ┣ 📄 netflix_analysis.py
+ ┣ 📄 netflix_content_2023.csv
+ ┣ 📄 requirements.txt
+ ┗ 📄 README.md
+
+```
 
 ## 🚀 Future Improvements
 🌐 Convert to an interactive Streamlit Dashboard
